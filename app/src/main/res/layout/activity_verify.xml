@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Tanggal Pengerjaan : 29 April 2023
+NIM     : 10120767
+NAMA    : Zidane Maulana
+KELAS   : IF-9
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#43b3e6"
+    tools:context=".Verify">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Almost There"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thank you for registering with us. One More step, you need to check your email to active your account. "
+        android:textColor="#FFFFFF" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/btn_verify"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="VERIFY" />
+</LinearLayout>

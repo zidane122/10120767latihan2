@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">10120767Latihan2</string>
+    <string-array name="bloodtype">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+        <item>Employee</item>
+        <item>Enterpreneur</item>
+        <item>Influencer</item>
+        <item>Management</item>
+        <item>Other</item>
+    </string-array>
+</resources>
